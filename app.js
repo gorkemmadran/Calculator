@@ -2,7 +2,7 @@ const screen = document.querySelector('.input');
 const buttons = document.querySelectorAll('button');
 const clear = document.querySelector('.clear');
 const equal = document.querySelector('.equal');
-let curVal;
+let curVal = "";
 
 
 function calculator(){
